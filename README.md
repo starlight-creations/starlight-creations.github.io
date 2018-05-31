@@ -1,2 +1,1 @@
-# starlight-creations
-Starlight Creations Jekyll Website
+# Starlight Creations Jekyll Website
