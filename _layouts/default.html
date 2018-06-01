@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Starlight Creations">
+
+    <link href="//stackpath.bootstrapcdn.com/bootswatch/4.1.1/minty/bootstrap.min.css" rel="stylesheet" integrity="sha384-4eGtnTOp6je5m6l1Zcp2WUGR9Y7kJZuAiD3Pk2GAW3uNRgHQSIqcrcAxBipzlbWP" crossorigin="anonymous">
+    <link href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="//fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    {% seo %}
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/">{{site.title}}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            {% for p in site.pages %}
+                {% if p.nav %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{site.baseurl}}{{ p.url }}">{{ p.title }}</a>
+                </li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+    </div>
+    <footer class="container">
+        <hr>
+        <p>
+            <i class="fa fa-copyright fa-lg fa-fw" aria-hidden="true"></i> Starlight Creations 2017-2018. Site designed and built by
+            <a href="https://www.mashsoftware.com/" target="_blank">Mash Software</a>.</p>
+    </footer>
+</body>
+
+</html>
