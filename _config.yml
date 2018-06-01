@@ -16,17 +16,24 @@
 title: Starlight Creations
 email: hello@starlightcreations.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  Starlight Creations create, sell and rent bespoke art, craft and decorations using natural materials sourced from Dartmoor and Devon.
+  Starlight Creations create, sell and rent bespoke art, craft and decorations using natural reclaimed materials sourced from Dartmoor and Devon.
 baseurl: "/starlight-creations" # the subpath of your site, e.g. /blog
 url: "https://matthew-shaw.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter:
+  username: StarlightCreat1
+facebook:
+  publisher: 1973343169357951
+social:
+  links:
+    - https://twitter.com/StarlightCreat1
+    - https://www.facebook.com/startlightcreationsuk/
+lang: en_GB
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
