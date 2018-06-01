@@ -4,5 +4,6 @@ title: Buy
 permalink: /buy
 nav: true
 ---
+# Buy stuff
 
-## Buy stuff!
+Words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words

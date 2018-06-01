@@ -4,5 +4,6 @@ title: Rent
 permalink: /rent
 nav: true
 ---
+# Rent stuff
 
-## Rent stuff!
+Words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words

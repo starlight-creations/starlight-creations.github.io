@@ -3,10 +3,10 @@ layout: default
 title: Home
 permalink: /
 ---
-# This is a h1
+# Starlight Creations
 
 Some body text here...
 
 ## This is a h2
 
-Blah blah blah
+Words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words
