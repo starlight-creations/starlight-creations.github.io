@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Home
+title: Starlight Creations
 permalink: /
 ---
-# Starlight Creations
 
 Some body text here...
 
