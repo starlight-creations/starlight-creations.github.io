@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Starlight Creations
+description: {{site.description}}
 permalink: /
 ---
 
