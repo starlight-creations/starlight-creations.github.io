@@ -5,4 +5,6 @@ permalink: /rent
 nav: true
 ---
 
-Words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words
+{% for package in site.data.rentals %}
+{{package.name}} - {{package.description}}
+{% endfor %}

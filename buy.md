@@ -5,4 +5,6 @@ permalink: /buy
 nav: true
 ---
 
-Words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words
+{% for product in site.data.products %}
+{{product.name}} - {{product.description}}
+{% endfor %}
