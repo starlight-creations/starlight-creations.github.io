@@ -1,11 +1,11 @@
 language: ruby
 rvm:
 - 2.4.2
-
-script: ./script/cibuild
-
+script: "./script/cibuild"
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-
-sudo: false # route your build to the container-based infrastructure for a faster build
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+sudo: false
+notifications:
+  slack:
+    secure: GFeSv7Ebi1eBKujkrErJaUr6YPk40Cx4Mbld+Asl0Fa0W+Clz3KxsKzuN6lMbCUkW76H6GNI9VPuNV7gd+4QxcD78+6XFsg8BtbXu85kMD02jE0i7s9S0/287upIoGGSCP+WV/gc9CUjuMplpbKmCoHCLV3Ny+iP2mo6xIydG5IRIT6ZWeOvJl8gPhZvQXbQg6Qhbpi5kZSqCYL40+Erxje01FHHf7LDEKdwvbEW8A70d+D/dYWxPwiIpd2HJEiz2kp8D0iem/qs6rSj9Y9CKev/xoIUZqqdb6uFX+dYEwTwYA/CIbNoVIWszp+DnMDLc2Ot27bDoYTyaoC+8Gq2UmdYWlTcLGQSqbl8moWaQQ1mzLFxKAlSbzSlwFKWM9hsJHO5nsoYuIrVpgJiDjAlOOFVXzpzhb/lZSc9cWJ/9Y02Jfv8EOKKsYk7ifvvVtPAXDHIE3uGfEBwpAWoMSmoA8UgGrsRuDwKZso+4LvSN+rhjKu/vVxWQFwOuyx9kDlewbRgtpCWB0TBzjpKrpCg3N/oP/LXQYd+gl+j5Lb7Ffeopbi3zXVkd01e2xxc5sTJvEI/1BF0dceoFLk/Z2iXn9Fw5YJQkPcg44uQl9BOA2y6dF1Kj6orrkkx5wJvlA7UkmIuE6YcoYVeEUdIYSyPpD5BMUHLNXiKqA/LhgbyA8A=
