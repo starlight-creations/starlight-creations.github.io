@@ -5,6 +5,6 @@ permalink: /rent
 nav: true
 ---
 
-{% for package in site.data.rentals %}
-{{package.name}} - {{package.description}}
+{% for item in site.data.services %}
+{% include item.html %}
 {% endfor %}

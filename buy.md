@@ -5,6 +5,6 @@ permalink: /buy
 nav: true
 ---
 
-{% for product in site.data.products %}
-{{product.name}} - {{product.description}}
+{% for item in site.data.products %}
+{% include item.html %}
 {% endfor %}
