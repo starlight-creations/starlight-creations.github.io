@@ -28,6 +28,9 @@ social:
     - https://twitter.com/StarlightCreat1
     - https://www.facebook.com/startlightcreationsuk/
 lang: en_GB
+sass:
+    sass_dir: _sass
+    style: compressed
 
 # Build settings
 markdown: kramdown
