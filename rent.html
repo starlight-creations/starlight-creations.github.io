@@ -1,0 +1,27 @@
+---
+layout: default
+title: Rent
+permalink: /rent
+nav: true
+---
+{% assign count = 0 %}
+{% assign new_row = true %}
+
+{% for item in site.data.services %}
+    {% if new_row == true %}
+    <div class="row">
+    {% assign new_row = false %}
+    {% endif %}
+        <div class="col-md-4">
+            {% include item.html %}
+            <br>
+        </div>
+        {% assign count = count | plus: 1 %}
+        {% if count == 3 or forloop.last %}
+            {% assign new_row = true %}
+        {% endif %}
+    {% if new_row == true %}
+    </div>
+    {% assign count = 0 %}
+    {% endif %}
+{% endfor %}
