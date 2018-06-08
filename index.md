@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Starlight Creations
-description: {{site.description}}
 permalink: /
+nav: false
 ---
 
 Some body text here...
