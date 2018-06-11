@@ -1,14 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-GB">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Starlight Creations">
     <link href="//stackpath.bootstrapcdn.com/bootswatch/4.1.1/minty/bootstrap.min.css" rel="stylesheet" integrity="sha384-4eGtnTOp6je5m6l1Zcp2WUGR9Y7kJZuAiD3Pk2GAW3uNRgHQSIqcrcAxBipzlbWP" crossorigin="anonymous">
-    <link href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="//use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
     {% seo %}
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
@@ -22,8 +24,8 @@
                 <ul class="navbar-nav mr-auto">
                     {% for p in site.pages %}
                     {% if p.nav %}
-                    <li class="nav-item">
-                        <a class="nav-link {%if p.url == page.url %}active{% endif %}" href="{{site.baseurl}}{{ p.url }}">{{ p.title }}</a>
+                    <li class="nav-item {%if p.url == page.url %}active{% endif %}">
+                        <a class="nav-link" href="{{site.baseurl}}{{ p.url }}">{{ p.title }}</a>
                     </li>
                     {% endif %}
                     {% endfor %}
@@ -43,11 +45,12 @@
     <footer class="container">
         <hr>
         <p>
-            <i class="fa fa-copyright fa-lg fa-fw" aria-hidden="true"></i> Starlight Creations 2017-{{"now" | date: "%Y"}}. Site designed and built by
+            <i class="far fa-copyright"></i> {{site.title}} 2017-{{"now" | date: "%Y"}}. Site designed and built by
             <a href="https://www.mashsoftware.com/" target="_blank">Mash Software</a>.
         </p>
     </footer>
     <script src="//code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
+
 </html>
