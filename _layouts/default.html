@@ -7,7 +7,7 @@
     <meta name="author" content="Starlight Creations">
     <link href="//stackpath.bootstrapcdn.com/bootswatch/4.1.1/minty/bootstrap.min.css" rel="stylesheet" integrity="sha384-4eGtnTOp6je5m6l1Zcp2WUGR9Y7kJZuAiD3Pk2GAW3uNRgHQSIqcrcAxBipzlbWP" crossorigin="anonymous">
     <link href="//use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
+    <link href="{{ "/css/site.css" | absolute_url }}" rel="stylesheet">
     {% seo %}
 </head>
 
@@ -22,13 +22,13 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    {% for p in site.pages %}
-                    {% if p.nav %}
-                    <li class="nav-item {%if p.url == page.url %}active{% endif %}">
+                    {%- for p in site.pages -%}
+                    {%- if p.nav -%}
+                    <li class="nav-item {% if p.url == page.url -%}active{%- endif -%}">
                         <a class="nav-link" href="{{site.baseurl}}{{ p.url }}">{{ p.title }}</a>
                     </li>
-                    {% endif %}
-                    {% endfor %}
+                    {%- endif -%}
+                    {%- endfor -%}
                 </ul>
             </div>
         </div>
@@ -36,7 +36,7 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">{{page.title}}</h1>
-            {% if page.description%}<p class="lead">{{page.description}}</p>{% endif %}
+            {%- if page.description-%}<p class="lead">{{page.description}}</p>{%- endif -%}
         </div>
     </div>
     <div class="container">
