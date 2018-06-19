@@ -1,45 +1,66 @@
-- name: Service 1
-  description: This is a Service, neat huh?
+- name: Wedding Arch
+  description: Wonderful in its simplicity this arch folds down making it brilliantly portable. The perfect arch for your wedding ceremony or a wonderful frame for the wedding breakfast.
   url: /services/service
-  img: /img/service.jpg
-  price: 50.00
-- name: Service 2
-  description: This is a Service, neat huh?
+  img: /img/arch.jpg
+  price: £70.00
+  for: each.
+- name: White heart buckets
+  description: These pretty little heart buckets - perfect for tea lights or even some sweeties for favours at the table.
   url: /services/service
-  img: /img/service.jpg
-  price: 50.00
-- name: Service 3
-  description: This is a Service, neat huh?
+  img: /img/heart_buckets.jpg
+  price: £3.50
+  for: for six.
+- name: Large white table name holders
+  description:  These pretty table number/name holders add a lovely simple touch to any table setting.
   url: /services/service
-  img: /img/service.jpg
-  price: 50.00
-- name: Service 4
-  description: This is a Service, neat huh?
+  img: /img/table_card_holders.jpg
+  price: £3.00
+  for: for two.
+- name: Medium white table name holders
+  description: These pretty table number/name holders add a lovely simple touch to any table setting.
   url: /services/service
-  img: /img/service.jpg
-  price: 50.00
-- name: Service 5
-  description: This is a Service, neat huh?
+  img: /img/table_card_holders.jpg
+  price: £6.00
+  for: for ten.
+- name: Wicker hearts
+  description: Beautiful white wicker hearts with ribbon
   url: /services/service
-  img: /img/service.jpg
-  price: 50.00
-- name: Service 6
-  description: This is a Service, neat huh?
+  img: /img/wicker_hearts.jpg
+  price: £3.00
+  for: each.
+- name: Large mirror plate
+  description: Add these large mirror plates (approx 35cms diameter) to your centrepieces for added depth and shine.
   url: /services/service
-  img: /img/service.jpg
-  price: 50.00
-- name: Service 7
-  description: This is a Service, neat huh?
+  img: /img/mirror_plate.jpg
+  price: £4.50
+  for: each.
+- name: Batman tea light jars
+  description: Mixing elegant wedding lace, country hessian and many-a-grooms favourite superhero will surely surprise and delight your guests.
   url: /services/service
-  img: /img/service.jpg
-  price: 50.00
-- name: Service 8
-  description: This is a Service, neat huh?
+  img: /img/batman_jar.jpg
+  price: £1.00
+  for: each.
+- name: Superhero table names
+  description: How about super hero table names! These fantastic framed pictures mix marvel and wedding elegance!
   url: /services/service
-  img: /img/service.jpg
-  price: 50.00
-- name: Service 9
-  description: This is a Service, neat huh?
+  img: /img/superhero_tables.jpg
+  price: £2.00
+  for: each.
+- name: White tree
+  description: A fantastic feature at weddings - as a wishing tree for your guests to write and hang labels of their wishes for your future life or a memory tree to hang pictures of those who are no longer with us but who we want to remember on such special days. 
   url: /services/service
-  img: /img/service.jpg
-  price: 50.00
+  img: /img/white_tree.jpg
+  price: £14.00
+  for: each.
+- name: Silver jar tea lights
+  description: Beautiful vintage effect silvered jar tea light holders.
+  url: /services/service
+  img: /img/silver_jars.jpg
+  price: £2.00
+  for: each.
+- name: Birdcage
+  description: Beautiful cream vintage effect bird cages. Each cage holds 4 tea lights (included). A stunning, elegant centrepiece for wedding tables.
+  url: /services/service
+  img: /img/birdcage.jpg
+  price: £6.00
+  for: each.
