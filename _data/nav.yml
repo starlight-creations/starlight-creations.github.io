@@ -1,10 +1,10 @@
 - name: About
-  url: /about/
+  url: /about
 - name: Buy
-  url: /buy/
+  url: /buy
 - name: Rent
-  url: /rent/
+  url: /rent
 - name: Gallery
-  url: /gallery/
+  url: /gallery
 - name: Contact
-  url: /contact/
+  url: /contact
