@@ -3,20 +3,15 @@ layout: default
 title: Gallery
 permalink: /gallery
 ---
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        {% for product in site.data.products %}
-        <div class="carousel-item {% if forloop.first == true %}active{% endif %}">
-            <img class="d-block w-100" src="{{site.baseurl}}{{product.img}}?auto=yes&bg=777&fg=555&text={{product.name}}" alt="{{product.name}}">
-        </div>
-        {% endfor %}
+<div class="card-columns">
+    {% for item in site.data.products %}
+    <div class="card">
+        <img class="card-img" src="{{item.img | absolute_url }}" alt="{{item.name}}" width="300">
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+    {% endfor %}
+    {% for item in site.data.services %}
+    <div class="card">
+        <img class="card-img" src="{{item.img | absolute_url }}" alt="{{item.name}}" width="300">
+    </div>
+    {% endfor %}
 </div>
