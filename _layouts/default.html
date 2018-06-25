@@ -23,7 +23,7 @@
                 <ul class="navbar-nav mr-auto">
                     {%- for p in site.data.nav -%}
                     <li class="nav-item {% if p.url == page.url -%}active{%- endif -%}">
-                      <a class="nav-link" href="{{site.baseurl}}{{p.url}}">{{p.name}} {%- if p.url == page.url -%}
+                      <a class="nav-link" href="{{p.url | absolute_url}}">{{p.name}} {%- if p.url == page.url -%}
                         <span class="sr-only">(current)</span>{%- endif -%}
                       </a>
                     </li>
