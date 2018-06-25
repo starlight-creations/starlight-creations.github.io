@@ -1,5 +1,5 @@
 <div class="card">
-    {%- if service.img -%}<img class="card-img-top" src="{{site.baseurl}}{{service.img}}" alt="{{service.name}}" height="200" width="300" style="object-fit: cover">{%- endif -%}
+    {%- if service.img -%}<img class="card-img-top" src="{{service.img | absolute_url }}" alt="{{service.name}}" height="200" width="300" style="object-fit: cover">{%- endif -%}
     <div class="card-body">
         <h5 class="card-title">{{service.name}}</h5>
         <h6 class="card-subtitle mb-2 text-muted">{{service.price}} {{service.for}}</h6>
