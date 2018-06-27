@@ -1,6 +1,6 @@
 # Starlight Creations Website
 
-[![Build Status](https://travis-ci.org/matthew-shaw/starlight-creations.svg?branch=master)](https://travis-ci.org/matthew-shaw/starlight-creations)
+[![Build Status](https://travis-ci.org/starlight-creations/starlight-creations.github.io.svg?branch=master)](https://travis-ci.org/starlight-creations/starlight-creations.github.io)
 
 ## Run
 
