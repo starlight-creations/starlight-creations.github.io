@@ -17,8 +17,8 @@ title: Starlight Creations
 email: hello@starlightcreations.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Starlight Creations create, sell and rent bespoke art, craft and decorations using natural reclaimed materials sourced from Dartmoor and Devon.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "www.starlightcreations.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.starlightcreations.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter:
   username: StarlightCreat1
 facebook:
