@@ -1,55 +1,55 @@
 - name: Wedding Arch
   description: Wonderful in its simplicity this arch folds down making it brilliantly portable. The perfect arch for your wedding ceremony or a wonderful frame for the wedding breakfast.
-  img: /img/arch.jpg
+  img: /assets/gallery/arch.jpg
   price: £70.00
   for: each.
 - name: White heart buckets
   description: These pretty little heart buckets - perfect for tea lights or even some sweeties for favours at the table.
-  img: /img/heart_buckets.jpg
+  img: /assets/gallery/heart_buckets.jpg
   price: £3.50
   for: for six.
 - name: Large white table name holders
   description:  These pretty table number/name holders add a lovely simple touch to any table setting.
-  img: /img/table_card_holders.jpg
+  img: /assets/gallery/table_card_holders.jpg
   price: £3.00
   for: for two.
 - name: Medium white table name holders
   description: These pretty table number/name holders add a lovely simple touch to any table setting.
-  img: /img/table_card_holders.jpg
+  img: /assets/gallery/table_card_holders.jpg
   price: £6.00
   for: for ten.
 - name: Wicker hearts
   description: Beautiful white wicker hearts with ribbon
-  img: /img/wicker_hearts.jpg
+  img: /assets/gallery/wicker_hearts.jpg
   price: £3.00
   for: each.
 - name: Large mirror plate
   description: Add these large mirror plates (approx 35cms diameter) to your centrepieces for added depth and shine.
-  img: /img/mirror_plate.jpg
+  img: /assets/gallery/mirror_plate.jpg
   price: £4.50
   for: each.
 - name: Batman tea light jars
   description: Mixing elegant wedding lace, country hessian and many-a-grooms favourite superhero will surely surprise and delight your guests.
-  img: /img/batman_jar.jpg
+  img: /assets/gallery/batman_jar.jpg
   price: £1.00
   for: each.
 - name: Superhero table names
   description: How about super hero table names! These fantastic framed pictures mix marvel and wedding elegance!
-  img: /img/superhero_tables.jpg
+  img: /assets/gallery/superhero_tables.jpg
   price: £2.00
   for: each.
 - name: White tree
   description: A fantastic feature at weddings - as a wishing tree for your guests to write and hang labels of their wishes for your future life or a memory tree to hang pictures of those who are no longer with us but who we want to remember on such special days. 
-  img: /img/white_tree.jpg
+  img: /assets/gallery/white_tree.jpg
   price: £14.00
   for: each.
 - name: Silver jar tea lights
   description: Beautiful vintage effect silvered jar tea light holders.
-  img: /img/silver_jars.jpg
+  img: /assets/gallery/silver_jars.jpg
   price: £2.00
   for: each.
 - name: Birdcage
   description: Beautiful cream vintage effect bird cages. Each cage holds 4 tea lights (included). A stunning, elegant centrepiece for wedding tables.
-  img: /img/birdcage.jpg
+  img: /assets/gallery/birdcage.jpg
   price: £6.00
   for: each.

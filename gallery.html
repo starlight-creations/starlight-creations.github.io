@@ -4,14 +4,10 @@ title: Gallery
 permalink: /gallery
 ---
 <div class="card-columns">
-    {% for item in site.data.products %}
-    <div class="card">
-        <img class="card-img" src="{{item.img | absolute_url }}" alt="{{item.name}}" width="300">
-    </div>
-    {% endfor %}
-    {% for item in site.data.services %}
-    <div class="card">
-        <img class="card-img" src="{{item.img | absolute_url }}" alt="{{item.name}}" width="300">
-    </div>
+    {% assign image_files = site.static_files | where: "image", true %}
+    {% for image in image_files %}
+        <div class="card">
+            <img class="card-img" src="{{ image.path }}" alt="{{image.basename}}" width="300">
+        </div>
     {% endfor %}
 </div>
