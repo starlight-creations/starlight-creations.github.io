@@ -1,55 +1,126 @@
-- name: Wedding Arch
+- name: Guest book holder
+  description: Add a touch of woodland magic to your special day with this beautiful Dartmoor ash guest book holder. Slightly angled to enable the book to rest on the wood, this holder includes an internal pot for pens and a rest for your chosen guest book. The base of the piece has been fitted with non-slip rubber pads to protect both the wood and the surface it is placed on.
+  img: /assets/gallery/IMG_1911.jpeg  
+  price: £16.00
+  for: each (guest book and pen not included).
+  new: true
+- name: Large demijohn glass bottles 
+  description: Whether its to serve some fine westcountry tipple or as a quirky table centrepiece these large demijohn bottles will do a proper job. 5 available.
+  img: /assets/gallery/IMG_1916.jpeg 
+  price: £6.00
+  for: each (tipple not included).
+  new: true
+- name: Metal cake stand and knives
+  description: Got the cake but not the accessories? We’ve got you covered. This beautiful metal and glass effect cake stand will bring a touch of elegance to any occasion with matching knives to cut and serve. 
+  img: /assets/gallery/IMG_1919.jpeg 
+  price: £12.00
+  for: each.
+  new: true
+- name: Mini easels
+  description: These mini easels are fantastic to hold any signage around your venue or as table name/number holders. Small and simple. 6 available.
+  img: /assets/gallery/IMG_1922.jpeg 
+  price: £2.50
+  for: each.
+  new: true
+- name: Glass centrepiece bowl 
+  description: These beautiful bowls are not only gorgeous on their own but when matched with a mirror plate, your choice of flowers/ribbons/decorations placed within the outer bowl and water/coloured stones/lights within the inside bowl they really do create a stunning piece. 10 available.
+  img: /assets/gallery/IMG_1924.jpeg 
+  price: £9.50
+  for: each (flowers & stones not included – but can be supplied, just ask!).
+  new: true
+- name: Metal table number holder   
+  description: These curly table number holders are a lovely addition to tables and take up very little space leaving more room for centre pieces! 10 available. 
+  img: /assets/gallery/IMG_1932.jpeg 
+  price: £2.00
+  for: each.
+  new: true
+- name: Branch centrepiece  
+  description: If you’re looking for something a little different for your centrepieces this is it. These beautiful hand crafted branch centrepieces are simply beautiful. Made from Devon wood each of these wonderful centrepieces have their own charm – so much so that we would recommend a viewing so you can choose the pieces that you love the best to grace your tables. Either as a single focal piece on a round table or as a set running along the front of a top table our branch centrepieces really do bring the beauty of the outside in. We offer a number of different designs for our branch centrepieces, if you would like more information just ask!
+  img: /assets/gallery/IMG_1945.jpeg 
+  price: £15.00
+  for: each (tea lights included – battery or flame available).
+  new: true
+- name: Single tealight holders
+  description: One of our signature designs these gorgeous little tealight holders are just perfect when placed amongst floral table decoration. Each little holder is cut and finished by hand with each piece individually worked on to really bring out its best. Made of a mixture of Dartmoor wood and the surrounding areas we have holders incased in outer bark or completely stripped to the inner bark our single holders are available in two designs as pictured. These pieces compliment our branch centrepieces and are available in our ‘Dartmoor’ package upon request. 40 available (with more available on request) – also available for sale on our Etsy store! 
+  img: /assets/gallery/IMG_1968.jpeg 
+  price: £2.50
+  for: each (tea lights included – battery or flame available).
+  new: true
+- name: Place Setting holders 
+  description: Looking for a quirky way to display your place settings? These adorable little hazel wood place setting holders could be for you! With an angled slit for your place cards these silver barked holders will bring a smile to your guests faces with their delicate wrap of lace adding a little touch of elegance and sparkle. 
+  img: /assets/gallery/IMG_1973.jpeg 
+  price: £0.50
+  for: each (cards not included).
+  new: true
+- name: Napkin rings 
+  description: These rustic wooden napkin rings could be the perfect finishing touch to your table! Displaying the outer bark and inner wood to its best these simple but beautiful wooden napkin rings  bring a touch of Dartmoor to your tables and are available in our ‘Dartmoor’ package on request. Also available for sale on our Etsy store! 
+  img: /assets/gallery/IMG_1977.jpeg 
+  price: £0.80
+  for: each (napkins not included).
+  new: true
+- name: Wedding arch
   description: Wonderful in its simplicity this arch folds down making it brilliantly portable. The perfect arch for your wedding ceremony or a wonderful frame for the wedding breakfast.
   img: /assets/gallery/arch.jpg
   price: £70.00
   for: each.
+  new: false
 - name: White heart buckets
   description: These pretty little heart buckets - perfect for tea lights or even some sweeties for favours at the table.
   img: /assets/gallery/heart_buckets.jpg
   price: £3.50
   for: for six.
+  new: false
 - name: Large white table name holders
   description:  These pretty table number/name holders add a lovely simple touch to any table setting.
   img: /assets/gallery/table_card_holders.jpg
   price: £3.00
   for: for two.
+  new: false
 - name: Medium white table name holders
   description: These pretty table number/name holders add a lovely simple touch to any table setting.
   img: /assets/gallery/table_card_holders.jpg
   price: £6.00
   for: for ten.
+  new: false
 - name: Wicker hearts
   description: Beautiful white wicker hearts with ribbon
   img: /assets/gallery/wicker_hearts.jpg
   price: £3.00
   for: each.
+  new: false
 - name: Large mirror plate
   description: Add these large mirror plates (approx 35cms diameter) to your centrepieces for added depth and shine.
   img: /assets/gallery/mirror_plate.jpg
   price: £4.50
   for: each.
+  new: false
 - name: Batman tea light jars
   description: Mixing elegant wedding lace, country hessian and many-a-grooms favourite superhero will surely surprise and delight your guests.
   img: /assets/gallery/batman_jar.jpg
   price: £1.00
   for: each.
+  new: false
 - name: Superhero table names
-  description: How about super hero table names! These fantastic framed pictures mix marvel and wedding elegance!
+  description: How about super hero table names? These fantastic framed pictures mix marvel and wedding elegance!
   img: /assets/gallery/superhero_tables.jpg
   price: £2.00
   for: each.
+  new: false
 - name: White tree
   description: A fantastic feature at weddings - as a wishing tree for your guests to write and hang labels of their wishes for your future life or a memory tree to hang pictures of those who are no longer with us but who we want to remember on such special days. 
   img: /assets/gallery/white_tree.jpg
   price: £14.00
   for: each.
+  new: false
 - name: Silver jar tea lights
   description: Beautiful vintage effect silvered jar tea light holders.
   img: /assets/gallery/silver_jars.jpg
   price: £2.00
   for: each.
+  new: false
 - name: Birdcage
   description: Beautiful cream vintage effect bird cages. Each cage holds 4 tea lights (included). A stunning, elegant centrepiece for wedding tables.
   img: /assets/gallery/birdcage.jpg
   price: £6.00
   for: each.
+  new: false
