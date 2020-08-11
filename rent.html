@@ -8,24 +8,10 @@ permalink: /rent
     Please <a href="mailto:hello@starlightcreations.co.uk?subject=Rental Enquiry" target="_blank" class="alert-link">contact us</a> to discuss your requirements and receive a personalised quote for your wedding or event.<br/>
     All items are subject to agreement with the <a href="{{ '/terms' | absolute_url }}" class="alert-link">rental terms and conditions</a>.
 </div>
-{%- assign count = 0 -%}
-{%- assign new_row = true -%}
-
+<div class="row row-cols-1 row-cols-md-3">
 {%- for service in site.data.services -%}
-    {%- if new_row == true -%}
-    <div class="row">
-    {%- assign new_row = false -%}
-    {%- endif -%}
-        <div class="col-md-4">
-            {%- include service_card.html -%}
-            <br>
-        </div>
-        {%- assign count = count | plus: 1 -%}
-        {%- if count == 3 or forloop.last -%}
-            {%- assign new_row = true -%}
-        {%- endif -%}
-    {%- if new_row == true -%}
+    <div class="col mb-4">
+        {%- include service_card.html -%}
     </div>
-    {%- assign count = 0 -%}
-    {%- endif -%}
 {%- endfor -%}
+</div>

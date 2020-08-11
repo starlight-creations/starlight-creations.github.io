@@ -1,4 +1,4 @@
-<div class="card border-primary">
+<div class="card border-primary h-100">
     {%- if service.img -%}<img class="card-img-top" src="assets/gallery/{{service.img[0]}}" alt="{{service.name}}" height="200" width="300" style="object-fit: cover">{%- endif -%}
     <div class="card-body">
         <h5 class="card-title">{{service.name}} {% if service.new %}<span class="badge badge-primary">New</span>{% endif %}</h5>
