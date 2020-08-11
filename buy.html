@@ -5,24 +5,10 @@ description: Unique pieces, yours to keep forever.
 permalink: /buy
 ---
 <h2>Highlights from the <a href="https://www.etsy.com/uk/shop/StarlightCreationsUK" target="_blank">Etsy shop</a>:</h2>
-{%- assign count = 0 -%}
-{%- assign new_row = true -%}
-
+<div class="row row-cols-1 row-cols-md-3">
 {%- for product in site.data.products -%}
-    {%- if new_row == true -%}
-    <div class="row">
-    {%- assign new_row = false -%}
-    {%- endif -%}
-        <div class="col-md-4">
-            {%- include product_card.html -%}
-            <br>
-        </div>
-        {%- assign count = count | plus: 1 -%}
-        {%- if count == 3 or forloop.last -%}
-            {%- assign new_row = true -%}
-        {%- endif -%}
-    {%- if new_row == true -%}
+    <div class="col mb-4">
+        {%- include product_card.html -%}
     </div>
-    {% assign count = 0 %}
-    {% endif %}
 {% endfor %}
+</div>

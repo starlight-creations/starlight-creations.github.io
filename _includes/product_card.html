@@ -2,6 +2,9 @@
     {%- if product.img -%}<img class="card-img-top" src="{{product.img | absolute_url }}" alt="{{product.name}}" height="200" width="300" style="object-fit: cover">{%- endif -%}
     <div class="card-body">
         <h5 class="card-title">{{product.name}}</h5>
-        {%- if product.url -%}<a href="{{product.url}}" target="_blank" class="card-link"><i class="fab fa-etsy fa-fw fa-lg"></i> Buy on Etsy</a>{%- endif -%}
+        {%- if product.description -%}<p class="card-text">{{product.description}}</p>{%- endif -%}
     </div>
+    {%- if product.url -%}<div class="card-footer">
+        <a href="{{product.url}}" target="_blank" class="card-link"><i class="fab fa-etsy fa-fw fa-lg"></i> Buy on Etsy</a>
+    </div>{%- endif -%}
 </div>
