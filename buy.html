@@ -4,11 +4,43 @@ title: Buy
 description: Unique pieces, yours to keep forever.
 permalink: /buy
 ---
-<h2>Featured items from the <a href="https://www.etsy.com/uk/shop/StarlightCreationsUK" target="_blank">Etsy shop</a>:</h2>
+<h2>Featured items from the <a href="https://www.etsy.com/uk/shop/StarlightCreationsUK" target="_blank">Etsy shop</a>...</h2>
 <div class="row row-cols-1 row-cols-md-3">
 {%- for product in site.data.products -%}
     <div class="col mb-4">
         {%- include product_card.html -%}
     </div>
 {% endfor %}
+</div>
+<hr>
+<h2>As seen in...</h2>
+<div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-4">
+        <div class="card border-primary h-100">
+            <div class="card-body">
+                <h5 class="card-title"><a href="https://www.quaintly-uk.com/" target="_blank">Quaintly & Co</a></h5>
+                <p class="card-text">August 2020 - Country To Coast themed box</p>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<h2>Also available from...</h2>
+<div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-4">
+        <div class="card border-primary h-100">
+            <div class="card-body">
+                <h5 class="card-title"><a href="https://www.dartmoor.gov.uk/" target="_blank">Dartmoor National Park</a></h5>
+                <p class="card-text"><a href="https://www.dartmoor.gov.uk/enjoy-dartmoor/planning-your-visit/virtual-visitor-centre/princetown-visitor-centre" target="_blank">Princetown</a>, <a href="https://www.dartmoor.gov.uk/enjoy-dartmoor/planning-your-visit/virtual-visitor-centre/haytor-visitor-centre" target="_blank">Haytor</a> and <a href="https://www.dartmoor.gov.uk/enjoy-dartmoor/planning-your-visit/virtual-visitor-centre/postbridge-visitor-centre" target="_blank">Postbridge</a> visitor centres</p>
+            </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+        <div class="card border-primary h-100">
+            <div class="card-body">
+                <h5 class="card-title"><a href="https://www.lambertsemporium.com/" target="_blank">Lamberts Emporium</a></h5>
+                <p class="card-text">Tavistock</p>
+            </div>
+        </div>
+    </div>
 </div>
