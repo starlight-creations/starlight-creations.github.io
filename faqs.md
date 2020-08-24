@@ -9,6 +9,9 @@ If the item is wood this will apply to most pieces - inner bark of your item has
 
 My personal preference is Craftsman Timber Wax (which I have used to finish these items) for its quality, its natural base and its beautiful scent! Please feel free to contact me using the links below if you would like to know where to purchase this wax or for any further care instructions. For glass pieces feel free to contact me.
 
+- I would recommend not leaving our wood products in direct sunlight for long periods of time to prevent long term bleaching of any exposed inner bark.
+- An occasional light dusting with a gentle household product or a beeswax treatment would be beneficial for the long term care of your item.
+
 ##### Q: Wholesale availability
 
 I do make items to order and are available wholesale - to enquire about this please contact me using the links below.
@@ -28,6 +31,3 @@ I take great care to ensure the quality and safety of my products and would like
 - NEVER leave naked flames unsupervised (when using tealights etc)
 - Always place our holders on a steady surface well out of reach of children and pets.
 - Please note all Starlight Creations are sold as ornaments/decorations - they are not toys.
-
-- I would recommend not leaving our wood products in direct sunlight for long periods of time to prevent long term bleaching of any exposed inner bark.
-- An occasional light dusting with a gentle household product or a beeswax treatment would be beneficial for the long term care of your item.
